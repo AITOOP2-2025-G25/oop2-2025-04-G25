@@ -8,7 +8,10 @@ audio_file_path = "python-audio-output.wav"
 result = mlx_whisper.transcribe(
   audio_file_path, path_or_hf_repo="whisper-base-mlx"
 )
-print(result)
+<<<<<<< HEAD
+=======
+print(result['text'])
+>>>>>>> 671ce1ba8690d125316e185e0d832debc62ac280
 
 
 # 音声データを指定して文字起こし
